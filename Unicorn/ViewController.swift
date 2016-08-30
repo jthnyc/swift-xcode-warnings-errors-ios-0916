@@ -3,7 +3,7 @@
 //  Unicorn
 //
 //  Created by James Campagno on 7/28/16.
-//  Copyright © 2016 Flatiron School. All rights reserved.
+//  Copyright © 2016 Flatiron School. All rights reserved.//
 //
 
 import UIKit
@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    var favoriteActor = "Leo"
+    favoriteActor = "Brad"
+    
     
     func unicorn() -> String {
         
